@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "amitie-f30ce"
-  }
+    "default": "amitie-f30ce",
+    "girls-code": "girls-code"
+  },
+  "targets": {}
 }
