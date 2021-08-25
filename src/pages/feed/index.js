@@ -11,7 +11,7 @@ const createPage = () => {
   const contentnewElement = `        
           <header>
               <nav class="feed-navbar">
-                  <img class="feed-logo" src="./img/Amitié2.png" alt="">
+                  <img class="feed-logo" src="./img/code-girls2.svg" alt="">
                   <div class="hamburger" id="hamburger">
                       <div class="hamburger-line"></div>
                       <div class="hamburger-line"></div>
@@ -29,12 +29,13 @@ const createPage = () => {
             <section class="greet-user">
             <img src="https://i.pravatar.cc/100?img=16" alt="User Photo" class="user-feed-photo">
               <p>Bem vinda, ${user.displayName}</p>
-            </section>
+            
         
             <form id="postForm" class="posts-form">
                 <input type="text" name="postText" id="postText" class="post-text" autocomplete="off" placeholder="No que você está pensando?" required>
                 <button id="publishBtn" class="post-btn">Publicar</button>
             </form>
+            </section>
 
             <ul id="postsList" class="posts-list"></ul>
           </main>
