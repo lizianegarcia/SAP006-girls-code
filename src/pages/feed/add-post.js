@@ -17,7 +17,7 @@ export const addPosts = async (post) => {
             <p class="user-post">${post.data().text}</p>
   
             <div data-editcontainer class="edit-container display-none">
-              <textarea data-text="${post.id}" class="edit-post-textarea" rows="3" cols="30">${post.data().text}</textarea>
+              <textarea data-text="${post.id}" class="edit-post-textarea" rows="3" cols="50">${post.data().text}</textarea>
   
               <div class="edit-buttons">
                 <button data-cancel="${post.id}" class="manage-edit-btn cancel-btn">Cancelar</button>
