@@ -5,18 +5,19 @@ const createPage = () => {
   const contentnewElement = `
   <section class="reset-password-container">
   <div class="container-form">
-    <div class="reset-container">
-      <form action="#" class="reset-password form-forger-password">
-        <img src="img/Amitié1.png" alt="" class="reset-logo">
-        <h2 class="title-reset">Para redefinir sua senha, informe o endereço de e-mail cadastrado:</h2>
-        <div class="reset-input">
-          <i class="fas fa-user"></i>
-          <input type="text" id='reset-email' placeholder="digite seu e-mail." />
-        </div> 
-        <p id="reset-email-error"></p>
-        <p id="reset-email-success"></p>       
-        <input type="submit" value="redefinir senha" id="reset" class="btn-reset" />
-      </form>
+    <img src="img/password.png" class="image-password">
+      <div class="reset-container">
+        <form action="#" class="reset-password form-forger-password">
+          <img src="img/Amitié1.png" alt="" class="reset-logo">
+          <h2 class="title-reset">Para redefinir sua senha, informe o endereço de e-mail cadastrado:</h2>
+          <div class="reset-input">
+            <i class="fas fa-user"></i>
+            <input type="text" id='reset-email' placeholder="digite seu e-mail." />
+          </div> 
+          <p id="reset-email-error"></p>
+          <p id="reset-email-success"></p>       
+          <input type="submit" value="redefinir senha" id="reset" class="btn-reset" />
+        </form>
         </section>
   `;
   rootElement.innerHTML = contentnewElement;

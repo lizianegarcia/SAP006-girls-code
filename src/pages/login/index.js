@@ -10,7 +10,7 @@ const createPage = () => {
     <div class="forms-container">
       <div class="signin-signup">
         <form action="#" id="sign-in-form" class="sign-in-form form">
-      <img src="img/code-girls.svg" alt="" class="logo">
+      <img src="img/Girls-Code.gif" alt="" class="logo">
       <h2 class="title">Login</h2>
       <div class="input-field">
         <i class="fas fa-user"></i>
