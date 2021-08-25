@@ -27,10 +27,9 @@ const createPage = () => {
           </header>
           <main class="feed-container">
             <section class="greet-user">
-            <img src="https://i.pravatar.cc/100?img=16" alt="User Photo" class="user-feed-photo">
+            <img src="${user.photoURL || '../../img/avatar.jpg'}" alt="User Photo" class="user-feed-photo">
               <p>Bem vinda, ${user.displayName}</p>
-            
-        
+      
             <form id="postForm" class="posts-form">
                 <input type="text" name="postText" id="postText" class="post-text" autocomplete="off" placeholder="No que você está pensando?" required>
                 <button id="publishBtn" class="post-btn">Publicar</button>
