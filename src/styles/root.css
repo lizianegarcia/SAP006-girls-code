@@ -1,10 +1,12 @@
 
 :root {
-  --teal: #00BFA6;
-  --ultra-pink: #FF6585;
-  --space-cadet: #403E56;
+  --teal: #FF637A;
+  --ultra-pink: #FF637A;
+  --space-cadet: #373737;
   --dark-gray: #444444;
   --medium-gray: #ACACAC;
-  --light-gray: #f0f0f0;
+  --light-gray: #EFF0F4;
+  --font-gray: #CCCCCC;
+  --background-color: #D9D9D9;
 }
 

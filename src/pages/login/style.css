@@ -2,7 +2,7 @@
 .container {
   position: relative;
   width: 100%;
-  background-color: white;
+  background-color: var(--background-color);
   min-height: 100vh;
   overflow: hidden;
 }
@@ -55,7 +55,7 @@
 
 .title {
   font-size: 1.7rem;
-  color: var(--dark-gray);
+  color: var(--space-cadet);
   margin-bottom: 10px;
 }
 
@@ -75,7 +75,7 @@
 .input-field i {
   text-align: center;
   line-height: 55px;
-  color: var(--medium-gray);
+  color: var(--font-gray);
   transition: 0.5s;
   font-size: 1.1rem;
 }
@@ -87,11 +87,11 @@
   line-height: 1;
   font-weight: 600;
   font-size: 1.1rem;
-  color: var(--dark-gray);
+  color: var(--space-cadet);
 }
 
 .input-field input::placeholder {
-  color: var(--medium-gray);
+  color: var(--font-gray);
   font-weight: 500;
 }
 
@@ -141,13 +141,13 @@
 }
 
 .social-icon:hover {
-  color: var(--teal);
-  border-color: var(--teal);
+  color: var(--ultra-pink);
+  border-color: var(--ultra-pink);
 }
 
 .btn {
   width: 150px;
-  background-color: var(--teal);
+  background-color: var(--ultra-pink);
   border: none;
   outline: none;
   height: 49px;
@@ -161,7 +161,7 @@
 }
 
 .btn:hover {
-  background-color: var(--teal);
+  background-color: var(--ultra-pink);
 }
 .panels-container {
   position: absolute;
@@ -181,7 +181,7 @@
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #00BFA6  0%, #00BFA6 100%);
+  background-image: linear-gradient(-45deg, var(--ultra-pink)  0%, var(--ultra-pink) 100%);
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;

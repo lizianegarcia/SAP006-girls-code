@@ -1,14 +1,24 @@
 #logout {
-    border: none;
-    color: var(--teal);
-    background-color: white;
+    color: var(--light-gray);
+    background: var(--teal);
     padding: 0.8rem;
-    border-radius: 10px;
-    font-size: 1.3rem;
-    width: 100px;
+    border-radius: 4px;
+    border: 3px solid var(--light-gray);
+    font-size: 1.6rem;
+    width: 125px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#logout:hover{
+    color: var(--ultra-pink);
+    background: rgb(255, 255, 255);
+    box-shadow: -7px 10px 71px 15px rgba(214,204,207,0.62);
+    -webkit-box-shadow: -7px 10px 71px 15px rgba(214,204,207,0.62);
+    -moz-box-shadow: -7px 10px 71px 15px rgba(214,204,207,0.62);
+    transition-delay: .3s;
+    border: 2px solid var(--light-gray);
 }
 
 @media screen and (min-width: 1200px) {
