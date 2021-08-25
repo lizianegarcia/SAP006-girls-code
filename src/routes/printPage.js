@@ -6,7 +6,7 @@ export const printPage = async (page) => {
   const userIsLogged = await firebase.getUser();
   let route = routes[page];
   if (!route) {
-    route = routes['/notFound'];
+    route = routes['/not-found'];
   }
 
   if (route.protected && !userIsLogged) {

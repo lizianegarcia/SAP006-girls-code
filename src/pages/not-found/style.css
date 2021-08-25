@@ -5,8 +5,8 @@
 
 .logo-not-found {
     width: 220px;
-    height: 200px;
     justify-content: center;
+    padding-bottom: 65px;
 }
 
 .img-error-404 {
