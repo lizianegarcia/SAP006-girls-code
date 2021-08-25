@@ -12,7 +12,7 @@ const createPage = () => {
   const contentnewElement = `
   <header>
     <nav class="feed-navbar">
-      <img class="feed-logo" src="./img/code-girls2.svg" alt="">
+      <img class="profile-logo" src="./img/Girls-CodeF.gif" alt="">
       <div class="hamburger" id="hamburger">
       <div class="hamburger-line"></div>
       <div class="hamburger-line"></div>
@@ -26,7 +26,6 @@ const createPage = () => {
       </ul>
     </nav>
   </header>
-
   <section class='profile-area'>
       <div class='profile-area-theme'>
         <img class='theme-image' src="../../img/profile/background.png">

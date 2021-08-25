@@ -4,6 +4,15 @@
   padding: 15px 30px;
 }
 
+.profile-logo{
+  width: 100px;
+  position: absolute;
+
+  left: 5%;
+  top: 50%;
+  transform: translate(-5%, -50%);
+}
+
 .name-profile-area {
   text-align: center;
   width: 100%;
