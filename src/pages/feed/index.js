@@ -11,7 +11,7 @@ const createPage = () => {
   const contentnewElement = `        
           <header>
               <nav class="feed-navbar">
-                  <img class="feed-logo" src="./img/code-girls2.svg" alt="">
+                  <img class="feed-logo" src="./img/Girls-CodeF.gif" alt="">
                   <div class="hamburger" id="hamburger">
                       <div class="hamburger-line"></div>
                       <div class="hamburger-line"></div>
