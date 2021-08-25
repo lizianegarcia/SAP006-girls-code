@@ -30,11 +30,12 @@ const createPage = () => {
             <img src="https://i.pravatar.cc/100?img=16" alt="User Photo" class="user-feed-photo">
               <p>Bem vinda, ${user.displayName}</p>
             </section>
-        
-            <form id="postForm" class="posts-form">
-                <input type="text" name="postText" id="postText" class="post-text" autocomplete="off" placeholder="No que você está pensando?" required>
-                <button id="publishBtn" class="post-btn">Publicar</button>
-            </form>
+            <div class="layout-feed-container">
+                <form id="postForm" class="posts-form">
+                    <input type="text" name="postText" id="postText" class="post-text" autocomplete="off" placeholder="No que você está pensando?" required>
+                    <button id="publishBtn" class="post-btn">Publicar</button>
+                </form>
+            </div>
 
             <ul id="postsList" class="posts-list"></ul>
           </main>
