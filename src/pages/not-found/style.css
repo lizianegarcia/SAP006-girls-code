@@ -1,29 +1,29 @@
-
- .not-found-container {
-     background-image: url("../../img/bg.png");
-     background-size:  350px;
-     background-position: center;
+.not-found-container {
+    background-size: 350px;
+    background-position: center;
 }
+
 .logo {
     width: 220px;
     height: 200px;
     justify-content: center;
 }
 
-.img-error-404{
+.img-error-404 {
     height: 300px;
 }
 
 .not-found-page {
     position: absolute;
     left: 50%;
-    top:60%;
+    top: 60%;
     transform: translate(-50%, -60%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .not-found-title {
     color: var(--dark-gray);
     font-weight: 700;
@@ -33,45 +33,46 @@
     margin: 50px 0px 0px 0px;
     text-align: center;
 }
+
 .not-found-text {
     font-size: 1rem;
     width: 60%;
     text-align: center;
-    margin:5px;
+    margin: 5px;
     font-weight: 300;
 }
-.not-found-link-home{
+
+.not-found-link-home {
     font-weight: 600;
     color: var(--ultra-pink);
-    
 }
 
 @media(max-width:900px) {
-    .img-error-404{
-        height:180px;
+    .img-error-404 {
+        height: 180px;
     }
-    .not-found-text{
+
+    .not-found-text {
         width: 100%;
     }
 }
 
 @media(max-width:600px) {
 
-    .not-found-page{
+    .not-found-page {
         width: 100%;
     }
-    .img-error-404{
-        height:120px;
+
+    .img-error-404 {
+        height: 120px;
     }
+
     .not-found-title {
         font-size: 1.4rem;
     }
-    .not-found-text{
+
+    .not-found-text {
         width: 90%;
     }
 
 }
-
-
-
-
