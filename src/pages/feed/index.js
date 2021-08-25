@@ -21,6 +21,7 @@ const createPage = () => {
                   <ul class="navbar-links" id="navbar-links">
                       <li class="li-items" id="navigate-profile"><a href="#" id="goProfile">Perfil</a></li>
                       <li class="li-items" id="navigate-feed"><a href="#">Feed</a></li>
+                      <li class="li-items" id="navigate-about"><a href="#">Sobre</a></li>
                       <li class="li-items feed-logout"></li>
                   </ul>
               </nav>
@@ -49,6 +50,7 @@ const createPage = () => {
   const links = rootElement.querySelectorAll('.navbar-links li');
   const section = rootElement.querySelector('.feed-logout');
   const navigateProfile = rootElement.querySelector('#goProfile');
+  const navigateAboutUs = rootElement.querySelector('#navigate-about');
 
   const clearPostList = () => {
     rootElement.querySelector('.posts-list').innerHTML = '';
@@ -76,6 +78,10 @@ const createPage = () => {
   // NAV LINKS
   navigateProfile.addEventListener('click', () => {
     changePage('/create-profile');
+  });
+
+  navigateAboutUs.addEventListener('click', () => {
+    changePage('/about-us');
   });
 
   // LOGOUT COMPONENT
