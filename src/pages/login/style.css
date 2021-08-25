@@ -49,12 +49,12 @@
 }
 
 .logo-login {
-    width: 40%;
+    width: 50%;
     padding-bottom: 35px;
 }
 
 .title {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: var(--space-cadet);
   margin-bottom: 10px;
 }
