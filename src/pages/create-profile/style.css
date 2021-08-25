@@ -23,8 +23,8 @@
   height: 63px;
   border-radius: 34px;
   /* width: 120px;
-  height: 120px;
-  border-radius: 60px; */
+  height: 120px; */
+  border-radius: 60px; 
 } 
 
 
@@ -49,7 +49,7 @@
   align-items: center;
   padding-top: 0px;
   flex-wrap: wrap;
-  color: #444444;
+  color: #D9D9D9;
   width: 600px;
   font-size: 0.2 rem;
   margin: 10px;
@@ -60,6 +60,7 @@
   width: 50px;
   height: 50px;
   cursor:pointer;
+  margin-bottom: 30px;
 }
 
 .image-upload > input {
@@ -75,20 +76,17 @@
 @media only screen and (min-width: 1024px) {
   .profile-area {
     flex-direction: column;
-    height: 300px;
-    border: 2px solid gray;
-    border-radius: 4px;
-    width: 60%;
-    margin-top: 10px;
+    height: 400px;
+    /* width: 60%; */
     padding: 0px;
-    margin-left: 250px;
+    width: 100vw;
+    background-color: #D9D9D9;
+
   }
 
   .profile-area-theme {
-    background-color: rgb(211, 211, 211);
-    width: 100%;
-    height: 40%;
-    margin-bottom: 10px;
+    width: 100vw;
+    height: 35%;
   }
 
   .profile-area-photo-box {
@@ -102,24 +100,91 @@
   .theme-image {
     display: block;
     width: 100%;
-    height: 280px;
+    height: 200px;
   }
 
   .user-photo {
     width: 120px;
     height: 120px;
     border-radius: 60px;
+    margin-bottom: 30px;
   } 
 
   .profile-area-interests {
-    justify-content: center;
+    width: 100vw;
+    height: 150px;
+    display: flex;
     align-items: center;
-    height: 350px;
-    border: 2px solid gray;
-    border-radius: 4px;
-    width: 60%;
-    margin-top: 10px;
-    padding: 0px;
-    margin-left: 250px;
+    justify-content: center;
+    background-color: #D9D9D9;
   }
-}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .code {
+    width: 100%;
+    background-color: #D9D9D9;
+    overflow: hidden;
+    position: relative;
+    height: 350px;
+  }
+  
+  .svg {
+    position: absolute;
+    bottom: -10px;
+    width: 700px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  #macbook {
+    display: block;
+    animation: macbook .7s linear;
+    transition: all .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  #coder {
+    animation: coder .8s linear;
+    transform-origin: center center;
+  }
+  
+  #coffee {
+    animation: coffee 1s linear;
+    transform-origin: 83% 80%;
+  }
+  
+  #smoke {
+    animation: smoke 3s infinite;
+  }
+  
+  @keyframes macbook {
+    0%{transform: translateY(300px)}
+    50%{transform: translateY(10px)}
+    100% {transform: translateY(0px)}
+  }
+  
+  @keyframes coder {
+    0%{transform: scale(0); opacity: 0}
+    50%{transform: scale(1.5); opacity: 1}
+    100% {transform: scale(1); opacity:1}
+  }
+  
+  @keyframes coffee {
+    0%{transform: scale(0); opacity: 0}
+    50%{transform: scale(1.5); opacity: 1}
+    100% {transform: scale(1); opacity:1}
+  }
+  
+  @keyframes smoke {
+    0%{transform: translateY(0px); opacity: 1;}
+    50%{ opacity: .5;}
+    100%{transform: translateY(-15px); opacity: 0;}
+  }
+} 
