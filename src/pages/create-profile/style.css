@@ -209,13 +209,18 @@ section {
     }
 } 
 
-@media screen and (max-width:450px){
+@media screen and (max-width:550px){
 .profile-area-interests {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  align-items: center;
+  display: flex;
   justify-content: center;
+  text-align: center;
 }
 
+.img {
+  margin: 10px;
+  width: 35px;
+  height: 35px;
+  cursor:pointer;
+  margin-bottom: 30px;
+}
 }
