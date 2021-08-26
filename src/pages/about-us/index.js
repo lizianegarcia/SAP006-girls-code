@@ -251,20 +251,20 @@ const createPage = () => {
   <div class="inner-container">
       <div class="display-content">
           <h1>Sobre nós</h1>
-          <a href="#" id="goback-to-feed">Voltar para o Feed </a>
          <!--<img src="logo4.png" alt="movie-poster">--> 
       </div>
       <p class="text">
-          A Girls Code é uma rede social exclusiva para a mulher desenvolvedora,  uma comunidade  segura com objetivo de facilitar o compartilhamento de ideias, códigos e motivar a outra. Juntas somos mais fortes.
-          É uma rede social desenvolvida por mulheres, para mulheres. Gostou? Acesse o nosso repositorio:
-          <a href="https://github.com/lizianegarcia/SAP006-Girls-Code" target="_blank">Clique Aqui!</a>
+          A Girls Code é uma rede social exclusiva para a mulher desenvolvedora,  uma comunidade  segura com objetivo de facilitar o compartilhamento de ideias, códigos e oportunidades. Juntas somos mais fortes.Gostou?
+          Acesse o nosso repositorio:
+          <a href="https://github.com/lizianegarcia/SAP006-Girls-Code" target="_blank">Clique aqui!</a>     
       </p>
       <div class="skills">
           <a href="https://github.com/JulianaMonteiro4" target="_blank">Juliana</a>
           <a href="https://github.com/lathne" target="_blank">Laura</a>
           <a href="https://github.com/lanizia" target="_blank">Lanizia</a>
           <a href="https://github.com/lizianegarcia" target="_blank">Liziane</a>
-          <a href="https://github.com/tenorionique" target="_blank">Monique</a>
+          <a href="https://github.com/tenorionique" target="_blank">Monique</a><br>
+          <a href="#" id="goback-to-feed">Voltar ao Feed</a>    
       </div>
   </div>
 </div>
