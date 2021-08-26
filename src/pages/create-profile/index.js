@@ -1,9 +1,9 @@
 /* eslint-disable no-plusplus */
 /* eslint-disable no-use-before-define */
 /* eslint-disable func-names */
-import profile from '../../components/profile/profile.js';
-import { changePage } from '../../routes/changePage.js';
 
+import { changePage } from '../../routes/changePage.js';
+import profile from '../../components/profile/profile.js';
 const createPage = () => {
   const photoURL = firebase.auth().currentUser.photoURL;
   const nameUser = firebase.auth().currentUser.displayName;
@@ -23,6 +23,7 @@ const createPage = () => {
        <li class="li-items" id="navigate-profile"><a href="#">Perfil</a></li>
        <li class="li-items" id="navigate-feed"><a href="#" id="goFeed">Feed</a></li>
        <li class="li-items feed-logout"></li>
+       <li class="li-items" id="navigate-about"><a href="#">Sobre</a></li>
       </ul>
     </nav>
   </header>
@@ -507,6 +508,7 @@ const createPage = () => {
 
   const section = rootElement.querySelector('.feed-logout');
   const navigateFeed = rootElement.querySelector('#goFeed');
+  // const navigateAboutUs = rootElement.querySelector('#navigate-about');
   const hamburger = rootElement.querySelector('#hamburger');
   const navLinks = rootElement.querySelector('.navbar-links');
   const links = rootElement.querySelectorAll('.navbar-links li');
@@ -516,7 +518,11 @@ const createPage = () => {
     changePage('/');
   });
 
-  // LOGOUT COMPONENT
+  // navigateAboutUs.addEventListener('click', () => {
+  //   changePage('/about-us');
+  // });
+
+  // // LOGOUT COMPONENT
   section.appendChild(profile());
 
   hamburger.addEventListener('click', () => {
