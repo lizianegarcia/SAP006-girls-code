@@ -48,7 +48,6 @@ const createPage = () => {
         <img class='img' src="../../img/profile/html.png">
         <img class='img' src="../../img/profile/css.png">
         <img class='img' src="../../img/profile/js.png">
-        <img class='img' src="../../img/profile/java.png">
         <img class='img' src="../../img/profile/react.png">
         <img class='img' src="../../img/profile/php.png">
         <img class='img' src="../../img/profile/python.png">
