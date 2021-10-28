@@ -1,5 +1,10 @@
 # :iphone: Aplicativo _`${Girls Code}`_ :dancing_women:
 
+| :bust_in_silhouette: Demo User :computer: |
+| --------------------- |
+| :e-mail: Email: girlscode@teste.com |
+| :lock: Password: 123456 |
+
 ## :round_pushpin: Índice
 
 - [1. Prefácio](#1-prefácio)
